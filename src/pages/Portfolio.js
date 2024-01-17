@@ -12,7 +12,7 @@ import {
 
 const Portfolio = () => {
   return (
-    <div>
+    <div className="flex flex-col w-[1440px] h-fit mx-auto">
       <Header />
       <Hero />
       <About />
