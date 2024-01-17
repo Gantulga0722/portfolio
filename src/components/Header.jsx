@@ -3,7 +3,7 @@ import React from "react";
 export const Header = () => {
   return (
     <div className="flex px-[80px] py-[16px] justify-between items-center border-b border-white bg-slate-100">
-      <h1 className="text-black">SS</h1>
+      <h1 className="text-black">&lt;SS /&gt;</h1>
       <div className="flex gap-5">
         <div className="flex gap-3 justify-center items-center">
           <ul className="flex gap-3 justify-center items-center">
