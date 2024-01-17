@@ -1,3 +1,9 @@
+import React from "react";
+
 export const Skills = () => {
-  return;
+  return (
+    <div>
+      <div>Skills</div>
+    </div>
+  );
 };

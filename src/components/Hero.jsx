@@ -1,3 +1,9 @@
+import React from "react";
+
 export const Hero = () => {
-  return;
+  return (
+    <div>
+      <div>Hero</div>
+    </div>
+  );
 };

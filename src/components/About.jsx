@@ -1,3 +1,9 @@
+import React from "react";
+
 export const About = () => {
-  return;
+  return (
+    <div>
+      <div>About</div>
+    </div>
+  );
 };

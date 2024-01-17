@@ -1,3 +1,4 @@
+import React from "react";
 import {
   Header,
   Hero,
@@ -8,16 +9,19 @@ import {
   ContactMe,
   Footer,
 } from "@/components/Index";
+
 const Portfolio = () => {
   return (
-    (<Header />),
-    (<Hero />),
-    (<About />),
-    (<Skills />),
-    (<Experience />),
-    (<Work />),
-    (<ContactMe />),
-    (<Footer />)
+    <div>
+      <Header />
+      <Hero />
+      <About />
+      <Skills />
+      <Experience />
+      <Work />
+      <ContactMe />
+      <Footer />
+    </div>
   );
 };
 

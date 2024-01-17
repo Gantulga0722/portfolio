@@ -1,3 +1,9 @@
+import React from "react";
+
 export const ContactMe = () => {
-  return;
+  return (
+    <div>
+      <div>ContactMe</div>
+    </div>
+  );
 };
