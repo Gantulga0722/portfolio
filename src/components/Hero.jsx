@@ -146,7 +146,7 @@ export const Hero = () => {
         <div className="flex w-[400px] h-[360px] flex-[1 0 0] self-stretch relative">
           <div
             className="w-[280px] h-[320px] shrink-0 border-8 border-[#FFF] object-fill z-[1] absolute bottom-[40px] right-[40px]
-          bg-[url(https://s3-alpha-sig.figma.com/img/f85c/f455/11cd2ba02a83d564218d6500a134a91d?Expires=1706486400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=J6ilx-NOb63~KzVYyZfxx4qzRN~gm9QHjip~sIpK9MTVSZsX~huwLpZqpJyqW7GDTT8lB8QtBCj5-2PtU-Ygp48aaoTUuruT2gkBXQL~lHchh7pKMdkHIJrb2oMYnvdAYQNxOMjjUIF8HDscGx5Nt7iw4F0WHx0HmiLM~STQEdaUIw0hp1E28oW5KSCJTY9dpgSECxgzNyTUNroqNwgsE5X4gYOS6SIFW~iIc98LskU-vU9DVPo3dEzu2N-2Fz4UiQZedr6UAGezp4AEFbGvN6RWj7EetJyu7prBfAxtS4Q0dAi36VtSyse6uAVnFGuXHQ9Y83-~6UcTO1YSVEzzGQ__)] 
+          bg-[url(/HeroPic.jpg)] 
           bg-cover"
           ></div>
           <div className="w-[280px] h-[320px] shrink-0 border-8 border-[#FFF] bg-[#E5E7EB] absolute bottom-0 right-0"></div>
