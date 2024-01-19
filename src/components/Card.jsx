@@ -62,7 +62,7 @@ export const WorkCard = () => {
                 {<Image src={work.workIcon} width={24} height={24} />}
               </div>
             </div>
-            <div className=" flex p-[48px] justify-center items-center flex-[1 0 0] self-stretch rounded-[12px] border-r-[#F3F4F6] bg-[#F9FAFB] w-[576px] h-[480px]">
+            <div className=" flex p-[48px] justify-center items-center flex-[1 0 0] self-stretch rounded-r-lg border-r-[#F3F4F6] bg-[#F9FAFB] w-[576px] h-[480px]">
               {
                 <Image
                   src={work.image}
@@ -80,7 +80,7 @@ export const WorkCard = () => {
           </div>
         ) : (
           <div className="flex w-[1152px] rounded-[12px] shadow-md justify-center">
-            <div className=" flex p-[48px] justify-center items-center flex-[1 0 0] self-stretch rounded-[12px] border-r-[#F3F4F6] bg-[#F9FAFB] w-[576px] h-[480px]">
+            <div className=" flex p-[48px] justify-center items-center flex-[1 0 0] self-stretch rounded-l-lg border-r-[#F3F4F6] bg-[#F9FAFB] w-[576px] h-[480px]">
               {
                 <Image
                   src={work.image}
