@@ -2,19 +2,22 @@ import React from "react";
 
 export const About = () => {
   return (
-    <div className="flex w-[100%] h-fit px-[80px] py-[96px] justify-between items-start self-stretch bg-[#F9FAFB]">
+    <div className="flex w-[100%] flex-col sm:flex-row px-[80px] py-[96px] justify-between items-start self-stretch bg-[#F9FAFB]">
       <div className="flex w-[100%] flex-col px-[32px] py-0 items-center gap-[48px] flex-[1 0 0]">
         <div className="flex w-[100%] justify-center items-center self-stretch">
           <button className="flex px-[20px] py-[4px] justify-center items-center rounded-[12px] bg-[#E5E7EB] font-sans text-[14px] not-italic font-medium leading-5 text-[#4B5563]">
             About me
           </button>
         </div>
-        <div className="flex w-[100%] h-[694px] items-start gap-[48px] self-stretch flex-wrap">
+        <div className="flex w-[100%] h-fit items-start gap-[48px] self-stretch flex-wrap">
           <div className="flex w-[584px] h-[100%] items-start relative">
-            <div className="w-[400px] h-[480px] shrink-0 border-[8px] border-[#F9FAFB] bg-[url(/aboutPic.jpg)] bg-cover absolute left-10 top-0 z-[1]"></div>
+            <div className="w-[400px] h-[480px] shrink-0 border-[8px] border-[#F9FAFB] bg-cover absolute left-10 top-0 z-[1]">
+              <img src="/aboutPic.jpg" alt="" />
+            </div>
             <div className="w-[400px] h-[480px] border-[8px] border-[#F9FAFB] bg-[#E5E7EB] absolute left-0 top-10 "></div>
           </div>
-          <div className="flex flex-col gap-[24px] w-[584px] h-[100%] items-start">
+
+          <div className="flex flex-col gap-[24px] w-[584px] h-[100%] items-start mt-[540px] sm:mt-0">
             <h2 className="text-[#111827] font-sans text-[30px] not-italic font-[600] leading-[36px] tracking-[-0.6px]">
               Curious about me? Here you have it:
             </h2>

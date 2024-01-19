@@ -20,15 +20,15 @@ export const Skills = () => {
           </div>
         </div>
         <div className="flex items-start gap-[48px] self-stretch flex-wrap w-[100%] h-[248px]">
-          <div className="flex justify-between items-center self-stretch w-[100%]">
+          <div className="block sm:flex justify-between items-center self-stretch w-[100%]">
             {skillsIcon.map((element) => (
-              <div className="flex flex-col justify-center items-center gap-[8px] self-stretch">
+              <div className="block sm:flex flex-col justify-center items-center gap-[8px] self-stretch">
                 {<Image src={element.icon} width={64} height={64} />}
                 <p>{element.iconName}</p>
               </div>
             ))}
           </div>
-          <div className="flex justify-between items-center self-stretch w-[100%]">
+          <div className="block sm:flex justify-between items-center self-stretch w-[100%]">
             {skillsIcon1.map((element) => (
               <div className="flex flex-col justify-center items-center gap-[8px] self-stretch">
                 {<Image src={element.icon} width={64} height={64} />}

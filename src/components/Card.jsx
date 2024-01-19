@@ -7,12 +7,12 @@ export const ExperienceCard = () => {
   return (
     <div className="flex flex-col justify-center items-center gap-[48px] ">
       {experienceData.map((element) => (
-        <div className="flex w-[896px] p-[32px] items-start justify-center rounded-[12px] bg-[#FFF] shadow-md">
+        <div className="flex max-w-[896px] p-[32px] items-start justify-center rounded-[12px] bg-[#FFF] shadow-md">
           <div className="flex w-[100%] justify-between gap-12 self-stretch">
             <div className="flex items-start flex-[1 0 0]">
               {<Image src={element.icon} width={102} height={28} />}
             </div>
-            <div className="flex w-[384px] flex-col items-start gap-4">
+            <div className="flex max-w-[384px] flex-col items-start gap-4">
               <h2 className="text-[#111827] font-sans text-[20px] not-italic font-semibold leading-7">
                 {element.position}
               </h2>
@@ -41,7 +41,7 @@ export const WorkCard = () => {
     <div className="flex flex-col gap-[48px]">
       {workData.map((work) =>
         work.id == "reverse" ? (
-          <div className="flex w-[1152px] rounded-[12px] shadow-md justify-center">
+          <div className="flex flex-col sm:flex-row max-w-[1152px] rounded-[12px] shadow-md justify-center">
             <div className="flex p-[48px] flex-col items-center gap-[24px] flex-[1 0 0] self-stretch rounded-[12px 0 0 12px] w-[576px] h-[480px]">
               <div className="flex w-[100%] justify-start items-start">
                 <h2 className="text-[#111827] font-sans text-[20px] not-italic font-semibold leading-7">
@@ -79,7 +79,7 @@ export const WorkCard = () => {
             </div>
           </div>
         ) : (
-          <div className="flex w-[1152px] rounded-[12px] shadow-md justify-center">
+          <div className="flex flex-col sm:flex-row max-w-[1152px] rounded-[12px] shadow-md justify-center">
             <div className=" flex p-[48px] justify-center items-center flex-[1 0 0] self-stretch rounded-l-lg border-r-[#F3F4F6] bg-[#F9FAFB] w-[576px] h-[480px]">
               {
                 <Image

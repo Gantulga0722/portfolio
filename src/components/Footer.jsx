@@ -2,7 +2,7 @@ import React from "react";
 
 export const Footer = () => {
   return (
-    <div className="flex px-[80px] py-[24px] justify-center items-center self-stretch bg-[#F9FAFB]">
+    <div className="block sm:flex px-[80px] py-[24px] justify-center items-center self-stretch bg-[#F9FAFB]">
       <div className="flex px-[32px] py-0 justify-center items-center self-stretch">
         <div className="flex px-[32px] py-0 justify-center items-center self-stretch gap-2">
           <img src="/icons/icon-copyright.jpg" alt="" />
