@@ -19,18 +19,18 @@ export const Skills = () => {
             </p>
           </div>
         </div>
-        <div className="flex items-start gap-[48px] self-stretch flex-wrap w-[100%] h-[248px]">
-          <div className="block sm:flex justify-between items-center self-stretch w-[100%]">
+        <div className="flex flex-col sm:flex-row items-start gap-[48px] self-stretch flex-wrap w-[100%] h-[248px] mb-[670px] sm:mb-0">
+          <div className="flex flex-col sm:flex-row justify-between items-center self-stretch sm:w-[100%] gap-12">
             {skillsIcon.map((element) => (
-              <div className="block sm:flex flex-col justify-center items-center gap-[8px] self-stretch">
+              <div className="flex flex-col justify-center items-center gap-[8px]">
                 {<Image src={element.icon} width={64} height={64} />}
                 <p>{element.iconName}</p>
               </div>
             ))}
           </div>
-          <div className="block sm:flex justify-between items-center self-stretch w-[100%]">
+          <div className="flex flex-col sm:flex-row justify-between items-center self-stretch sm:w-[100%] gap-4">
             {skillsIcon1.map((element) => (
-              <div className="flex flex-col justify-center items-center gap-[8px] self-stretch">
+              <div className="flex flex-col justify-center items-center gap-[8px] ">
                 {<Image src={element.icon} width={64} height={64} />}
                 <p>{element.iconName}</p>
               </div>
