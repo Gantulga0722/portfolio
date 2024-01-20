@@ -3,7 +3,7 @@ import { hamburgerMenu } from "./Card";
 
 export const Header = () => {
   return (
-    <div className="flex w-[100%] sm:px-[80px] py-[16px] justify-between items-center border-b border-[rgba(255, 255, 255, 0.00)] bg-[#FFF] self-stretch ">
+    <div className="flex w-[100%] sm:px-[80px] py-[16px] justify-between items-center border-b border-[rgba(255, 255, 255, 0.00)] bg-[#FFF] self-stretch sm:relative">
       <div className="flex w-[100%] px-[32px] py-0 justify-between items-center flex-[1 0 0]">
         <h1 className="text-black text-center font-sans text-[30px] not-italic font-bold leading-9 tracking-[-0.6px]">
           &lt;SS /&gt;
@@ -19,7 +19,7 @@ export const Header = () => {
           <div className="w-5 h-0.5 bg-gray-600"></div>
         </div>
         <div
-          className="hidden sm:flex flex-col sm:flex-row gap-5 w-[600px] h-[660px] items-start bg-[#FFF] shadow-xl sm:shadow-none absolute top-0 right-0 z-[2] sm:mr-[552px] sm:h-[36px]"
+          className="hidden sm:flex flex-col sm:flex-row gap-5 w-[600px] h-[660px] items-start bg-[#FFF] shadow-xl sm:shadow-none absolute top-0 right-0 z-[2] sm:h-[36px]"
           id="dropMenu"
         >
           <div className="flex justify-between items-center px-[32px] py-[16px] w-[100%] border-b border-[rgba(255, 255, 255, 0.00)] sm:hidden">
@@ -36,7 +36,7 @@ export const Header = () => {
             </div>
           </div>
           <div className="flex gap-3 justify-center items-center">
-            <ul className="flex gap-[24px] justify-center items-start flex-col p-[16px] sm:flex-row sm:items-center sm:mt-[6px]">
+            <ul className="flex gap-[24px] justify-center items-start flex-col p-[16px] sm:flex-row sm:items-center sm:h-[68px]">
               <li className="text-[#4B5563] font-sans text-[16px] not-italic font-medium leading-6">
                 About
               </li>
