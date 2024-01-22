@@ -2,7 +2,10 @@ import React from "react";
 
 export const About = () => {
   return (
-    <div className="flex w-[100%] flex-col sm:flex-row px-[80px] py-[96px] justify-between items-start self-stretch bg-[#F9FAFB]">
+    <div
+      className="flex w-[100%] flex-col sm:flex-row px-[80px] py-[96px] justify-between items-start self-stretch bg-[#F9FAFB] delay-1000"
+      id="about"
+    >
       <div className="flex w-[100%] flex-col px-[32px] py-0 items-center gap-[48px] flex-[1 0 0]">
         <div className="flex w-[100%] justify-center items-center self-stretch">
           <button className="flex px-[20px] py-[4px] justify-center items-center rounded-[12px] bg-[#E5E7EB] font-sans text-[14px] not-italic font-medium leading-5 text-[#4B5563]">

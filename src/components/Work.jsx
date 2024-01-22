@@ -3,7 +3,10 @@ import { WorkCard } from "./Card";
 
 export const Work = () => {
   return (
-    <div className="flex w-[100%] h-fit sm:px-[80px] py-[96px] justify-between items-start self-stretch bg-[#FFF]">
+    <div
+      className="flex w-[100%] h-fit sm:px-[80px] py-[96px] justify-between items-start self-stretch bg-[#FFF] delay-1000"
+      id="work"
+    >
       <div className="flex w-[100%] sm:px-[32px] py-0 flex-col items-start justify-center gap-[48px]">
         <div className="flex flex-col items-start gap-4 self-stretch">
           <div className="flex w-[100%] justify-center items-center self-stretch">

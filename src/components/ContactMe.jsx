@@ -2,7 +2,10 @@ import React from "react";
 
 export const ContactMe = () => {
   return (
-    <div className="flex px-[80px] py-[96px] flex-col justify-center items-center self-stretch bg-[#FFF]">
+    <div
+      className="flex px-[80px] py-[96px] flex-col justify-center items-center self-stretch bg-[#FFF] delay-1000"
+      id="contact"
+    >
       <div className="flex px-[32px] py-0 flex-col justify-center items-center gap-[48px] self-stretch">
         <div className="flex flex-col items-start gap-[16px] self-stretch justify-center">
           <div className="flex justify-center items-center self-stretch">

@@ -5,7 +5,10 @@ import Image from "next/image";
 
 export const Skills = () => {
   return (
-    <div className="flex w-[100%] h-fit px-[80px] py-[96px] justify-between items-start self-stretch bg-[#FFF]">
+    <div
+      className="flex w-[100%] h-fit px-[80px] py-[96px] justify-between items-start self-stretch bg-[#FFF] delay-1000"
+      id="skills"
+    >
       <div className="flex w-[100%] px-[32px] py-0 flex-col items-start justify-center gap-[48px]">
         <div className="flex w-[100%] py-0 flex-col items-start justify-center gap-[16px]">
           <div className="flex w-[100%] justify-center items-center self-stretch">

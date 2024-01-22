@@ -38,16 +38,24 @@ export const Header = () => {
           <div className="flex gap-3 justify-center items-center">
             <ul className="flex gap-[24px] justify-center items-start flex-col p-[16px] sm:flex-row sm:items-center sm:h-[68px]">
               <li className="text-[#4B5563] font-sans text-[16px] not-italic font-medium leading-6">
-                About
+                <a href="#about" className="delay-4000">
+                  About
+                </a>
               </li>
               <li className="text-[#4B5563] font-sans text-[16px] not-italic font-medium leading-6">
-                Work
+                <a href="#work" className="delay-4000">
+                  Work
+                </a>
               </li>
               <li className="text-[#4B5563] font-sans text-[16px] not-italic font-medium leading-6">
-                Testimonials
+                <a href="#experience" className="delay-4000">
+                  Testimonials
+                </a>
               </li>
               <li className="text-[#4B5563] font-sans text-[16px] not-italic font-medium leading-6">
-                Contact
+                <a href="#contact" className="delay-4000">
+                  Contact
+                </a>
               </li>
             </ul>
           </div>

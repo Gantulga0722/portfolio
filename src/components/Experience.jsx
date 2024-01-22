@@ -3,7 +3,10 @@ import { ExperienceCard } from "./Card";
 
 export const Experience = () => {
   return (
-    <div className="flex w-[100%] h-fit px-[80px] py-[96px] justify-between items-start self-stretch bg-[#F9FAFB]">
+    <div
+      className="flex w-[100%] h-fit px-[80px] py-[96px] justify-between items-start self-stretch bg-[#F9FAFB] delay-1000"
+      id="experience"
+    >
       <div className="flex w-[100%] px-[32px] py-0 flex-col items-start justify-center gap-[48px]">
         <div className="flex flex-col items-start gap-4 self-stretch">
           <div className="flex w-[100%] justify-center items-center self-stretch">
