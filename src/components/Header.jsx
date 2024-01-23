@@ -19,7 +19,7 @@ export const Header = () => {
           <div className="w-5 h-0.5 bg-gray-600"></div>
         </div>
         <div
-          className="hidden sm:flex flex-col sm:flex-row gap-5 w-[600px] h-[660px] items-start bg-[#FFF] shadow-xl sm:shadow-none absolute top-0 right-0 z-[2] sm:h-[36px]"
+          className="hidden sm:flex flex-col sm:flex-row gap-5 w-[320px] h-[660px] items-start bg-[#FFF] shadow-xl sm:shadow-none absolute top-0 right-0 z-[2] sm:h-[36px]"
           id="dropMenu"
         >
           <div className="flex justify-between items-center px-[32px] py-[16px] w-[100%] border-b border-[rgba(255, 255, 255, 0.00)] sm:hidden">
